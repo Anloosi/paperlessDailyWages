@@ -1,0 +1,88 @@
+<!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Casual Workers' Wage Computation</title>
+  </head>
+  <body>
+    <h2>Daily Wage Computation/h2>
+    <p>Maximum working Hours: 8 Hours a day</p>
+    <form>
+      <label for="wagehr">Wage per hour (Ghs):</label>
+      <select id="wagehr" name="wagehr">
+        <option value="nothing"></option>
+        <option value="Ghs30">30</option>
+        <option value="Ghs20">20</option>
+      </select><br><br>
+      <label for="wagedaily">Total wages per day (Ghs):</label>
+      <select id="wagedaily" name="wagedaily">
+        <option value="nothing"></option>
+        <option value="Ghs20">20</option>
+        <option value="Ghs40">40</option>
+        <option value="Ghs60">60</option>
+        <option value="Ghs30">80</option>
+        <option value="Ghs100">100</option>
+        <option value="Ghs120">120</option>
+        <option value="Ghs140">140</option>
+        <option value="Ghs160">160</option>
+        <option value="Ghs30">30</option>
+        <option value="Ghs60">60</option>
+        <option value="Ghs90">90</option>
+        <option value="Ghs120">120</option>
+        <option value="Ghs150">150</option>
+        <option value="Ghs180">180</option>
+        <option value="Ghs210">210</option>
+        <option value="Ghs240">240</option>
+      </select><br><br>
+      <label for="labour">Name of Worker:</label>
+      <select id="labour" name="labour">
+        <option value="nothing"></option>
+        <option value="elma">Elma</option>
+        <option value="prince">Prince</option>
+        <option value="ingus">Ingus</option>
+        <option value="ergash">Ergash</option>
+        <option value="tim">Tim</option>
+        <option value="manuel">Manuel</option>
+        <option value="dallien">Dallien</option>
+        <option value="kostantyn">Kostiantyn</option>
+      </select>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+    </form>
+    
+    <div class="hour">
+      <div class="unutilised" id="unutilised">
+        <span id="gauge"></span>
+        <small>Unutilised</small>
+      </div>
+
+      <div class="percentage" id="percentage"></div>
+    </div>
+    <p  id = "p1" class="text">Maximum hours acheivement gauge</p><br>
+
+    <div class="hours">
+      <div class="hour minutes">60 min</div>
+      <div class="hour minutes">120 min</div>
+      <div class="hour minutes">180 min</div>
+      <div class="hour minutes">240 min</div>
+      <div class="hour minutes">300 min</div>
+      <div class="hour minutes">360 min</div>
+      <div class="hour minutes">420 min</div>
+      <div class="hour minutes">480 min</div>
+    </div>
+    <p class="text">The number of working hours in a day</p><br>
+<form action="/action_page.php">
+  <label for="officer">Supervisor:</label>
+      <select id="officer" name="officer">
+        <option value="mark">Mark</option>
+        <option value="chris">Chris</option>
+        <option value="emelia">Emelia</option>
+      </select>
+  <input type="submit" value="Submit">
+</form> <br>
+<small>Prince Kweku Akyeampong's Project Work</small>
+    <script src="index.js"></script>
+  </body>
+</html>
