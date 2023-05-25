@@ -35,7 +35,7 @@ function updateHours() {
         percentage.style.height = 0
     } else {
         percentage.style.visibility = 'visible'
-        percentage.style.height = `${eightHours / maximumHours * 205}px`
+        percentage.style.height = `${eightHours / maximumHours * 200}px`
         percentage.innerText = `${eightHours / maximumHours * 100}%`
     }
 
